@@ -9,11 +9,12 @@ function OrderInfo({ productName, price, quantity }) {
         
         <ul>
             <h3>Order Information</h3>
-            <p>Product: {productName}</p>
-            <p>Price: {price} €</p>
-            <p>Quantity: {quantity}</p>
-            <p><strong>Total: {totalPrice} €</strong></p>
+            <p style={{ fontSize: '18px' }}>Product: {productName}</p>
+            <p style={{ fontSize: '18px' }}>Price: {price} €</p>
+            <p style={{ fontSize: '18px' }}>Quantity: {quantity}</p>
+            <p style={{ fontSize: '18px' }}><strong>Total: {totalPrice} €</strong></p>
         </ul>
+
       </div>
     );
   }
