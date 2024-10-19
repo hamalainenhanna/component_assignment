@@ -16,7 +16,7 @@ function OrderInfo({ productName, price, quantity }) {
         </ul>
 
       </div>
-    );
+    )
   }
   
 

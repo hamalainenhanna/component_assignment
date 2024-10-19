@@ -1,0 +1,47 @@
+[33mcommit aa51b5fd283ce844df65f24b840297a063102280[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmodify-order-info[m[33m, [m[1;31morigin/modify-order-info[m[33m)[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 15:18:06 2024 +0300
+
+    p tyyliä muutettu
+
+[33mcommit 0e4048a7db531a7cf38835bcbbb53cc562f0e349[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 14:50:57 2024 +0300
+
+    funktioiden lisäys, muokkausta, css muokkausta
+
+[33mcommit dbaa9a253ae7221de3e185aae66abae66e7ab20d[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 14:40:59 2024 +0300
+
+    ylimääräiset css tiedostot poistettu
+
+[33mcommit fe1b2c7adf739164e4091f5326b6d387136696e0[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 14:40:16 2024 +0300
+
+    css muokattu
+
+[33mcommit ba00f64eeb9465c12babb0bfea976f7673210939[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 12:50:11 2024 +0300
+
+    funktiot header ja componentUI lisätty ja muokattu
+
+[33mcommit ee87600b23188847dde604c6e0a45cdf6dea4c79[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Sat Oct 19 12:49:00 2024 +0300
+
+    kuva lisätty ja toinen kuva poistettu
+
+[33mcommit f19c7df00f29db113fa70ceffb6e476aa066a38d[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Fri Oct 18 09:08:19 2024 +0300
+
+    turhia css tiedostoja poistettu ja uudet jsx luotu
+
+[33mcommit daa36d9caf5e2738d560a4e791fd390160b6994f[m
+Author: hamalainenhanna <n3haha00@students.oamk.fi>
+Date:   Fri Oct 18 08:59:36 2024 +0300
+
+    Init

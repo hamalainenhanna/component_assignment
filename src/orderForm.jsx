@@ -20,7 +20,7 @@ function OrderForm() {
     return (
         <div className="form">
         <h3>Select product</h3>
-        <p>Product: <select value={selectedProduct} onChange={(e) => setSelectedProduct(Number(e.target.value))}>
+        <p style={{ fontSize: '18px' }}>Product: <select value={selectedProduct} onChange={(e) => setSelectedProduct(Number(e.target.value))}>
           {products.map((product, index) => (
             <option key={index} value={index}>
               {product}
@@ -28,10 +28,10 @@ function OrderForm() {
           ))}
         </select></p>
   
-        <p>Price: {prices[selectedProduct]} €</p>
+        <p style={{ fontSize: '18px' }}>Price: {prices[selectedProduct]} €</p>
         <div>
             
-        <p>Quantity: <button onClick={() => adjustQuantity(-1)}>-</button>
+        <p style={{ fontSize: '18px' }}>Quantity: <button onClick={() => adjustQuantity(-1)}>-</button>
           <span>{quantity}</span>
           <button onClick={() => adjustQuantity(1)}>+</button></p>
         </div>
