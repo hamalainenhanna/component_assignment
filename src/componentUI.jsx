@@ -1,34 +1,25 @@
 import OrderForm from "./orderform"
 import headerImage from './assets/Hali.jpg'; 
-import './Header.css';
+import './App.css';
 
-// function ComponentUI () {
 
-//     return (
-//         <div>
-//         <OrderForm/>
-//         </div>
-//     )
-// }
-
-// Header component
 function Header({ image, title }) {
   return (
-    <header className="header">
+    <div className="header">
       <img src={image} alt="Header" className="header-image" />
       <h1>{title}</h1>
-    </header>
+    </div>
   )
 }
 
 function ComponentUI() {
   return (
     <div>
-      {/* Header is displayed at the top of the page */}
-      <Header image={headerImage} title="Welcome to the Product Page" />
+      <Header image={headerImage} title="Welcome to the Dog's Shop" />
       <OrderForm />
     </div>
   )
 }
+
 
 export default ComponentUI
