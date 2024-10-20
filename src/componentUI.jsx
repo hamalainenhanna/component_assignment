@@ -3,7 +3,6 @@ import headerImage from './assets/Hali.jpg';
 import './App.css';
 import { useNavigate} from "react-router-dom";
 
-
 function Header({ image, title }) {
 
   return (
@@ -14,14 +13,13 @@ function Header({ image, title }) {
   )
 }
 
-
 function ComponentUI() {
 
     const navigate = useNavigate();
     
   return (
     <div>
-      <button onClick={()=> navigate('/OpenData')}>Go OpenData Page</button>
+      <button className="button2" onClick={()=> navigate('/OpenData')}>Go OpenData Page</button>
       <Header image={headerImage} title="Welcome to the Dog's Shop" />
       <OrderForm />
     </div>

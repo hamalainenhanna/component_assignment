@@ -59,7 +59,15 @@
     margin: 5px;
     border-radius: 4px;
   }
-
+.button2 {
+  font-size: 16px;
+    color: #0c0c0c;
+    background-color: #a6aaf5;
+    border: 2px solid #232222;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 4px;
+}
   .info p {
     font-size: 16px;
   }
