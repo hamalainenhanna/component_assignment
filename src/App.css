@@ -61,7 +61,7 @@ button {
 }
 
 .button2 {
-font-size: 16px;
+  font-size: 16px;
   color: #0c0c0c;
   background-color: #a6aaf5;
   border: 2px solid #232222;
@@ -71,18 +71,14 @@ font-size: 16px;
 
 }
 
-/* .info p {
-  font-size: 50px;
-} */
-
 .open {
   align-items: center;
-  padding: 20px;
-  height: 250px;
+  padding: 30px;
+  height: 300px;
   margin: 20px;
   background-color: #9095f2;
   box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.9);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 input {
