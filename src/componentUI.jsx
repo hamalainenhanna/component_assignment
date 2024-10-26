@@ -19,7 +19,7 @@ function ComponentUI() {
     
   return (
     <div>
-      <button className="button2" onClick={()=> navigate('/OpenDataWeather')}>Go OpenData Page</button>
+      <button className="button2" onClick={()=> navigate('/OpenDataWeather')}>Go to OpenDataWeather Page</button>
       <Header image={headerImage} title="Welcome to the Dog's Shop" />
       <OrderForm />
     </div>

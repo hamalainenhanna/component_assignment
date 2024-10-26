@@ -70,14 +70,15 @@ font-size: 16px;
   border-radius: 4px;
 
 }
-.info p {
-  font-size: 16px;
-}
+
+/* .info p {
+  font-size: 50px;
+} */
 
 .open {
   align-items: center;
-  padding: 40px;
-  height: 200px;
+  padding: 20px;
+  height: 250px;
   margin: 20px;
   background-color: #9095f2;
   box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.9);
