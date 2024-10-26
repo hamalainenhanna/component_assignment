@@ -45,7 +45,7 @@ const OpenData = () => {
   return (
     <div>
       <button onClick={() => navigate('/componentUI')}>Go to ComponentUI Page</button>
-      <Weather />
+      <Weather/>
     </div>
   );
 };

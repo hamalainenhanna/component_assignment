@@ -1,14 +1,15 @@
 
 import React from 'react';
 import ComponentUI from "./componentUI";
-import OpenData from './OpenData';
+import Weather from './OpenDataWeather';
 import { createBrowserRouter, Link, RouterProvider} from "react-router-dom";
+import OpenData from './OpenDataWeather';
 
 
 const router = createBrowserRouter([
   {path: '/', element: <ComponentUI/>},
   {path: '/componentUI', element: <ComponentUI/>},
-  {path: '/OpenData', element: <OpenData/>}
+  {path: '/OpenDataWeather', element: <OpenData/>}
 ])
 
 
